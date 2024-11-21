@@ -1,4 +1,4 @@
-HP_folding 3D
+3D
 
 #Simulation paramaters
 //box size
