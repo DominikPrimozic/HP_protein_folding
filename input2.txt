@@ -1,0 +1,30 @@
+HP_folding 2D
+
+#Simulation paramaters
+//box size, (xmin,ymin),(xmax,ymax)
+-100, -100 
+100, 100
+
+//steps
+1000
+
+//starting temperature
+1
+
+//annealing
+true //do anneal or not   #issues: does not care for this
+false // true or false
+1e-5 //rate of annealing
+
+//max distance
+1 // no diagonal moves
+
+#maybe more
+
+#Protein sequence
+//sequence
+>Seq1
+LYLIFGAWAGMVGTALSLLIRAELGQPGTLLGDDQIYNVIVTAHAFVMIFFMVMPIMIGGFGNWLVPLMI
+GAPDMAFPRMNNMSFWLLPPSFLLLLASSTVEAGAGTGWTVYPPLAGNLAHAGASVDLAIFSLHLAGVSS
+ILGAINFITTAINMKPPTLSQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFDPAGGGD
+PVLYQHLFWFFGHPEVYILIL
