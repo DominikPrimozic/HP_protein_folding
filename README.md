@@ -40,5 +40,5 @@ Since C++ is not well-suited for creating visuals, visualization scripts are wri
    - Use the output from the C++ simulation as input for the Python script.
    - Example:
      ```bash
-     python visualize.py 
+     python 3D_animator.py 
      ```
