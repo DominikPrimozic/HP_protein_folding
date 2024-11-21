@@ -34,7 +34,7 @@ Since C++ is not well-suited for creating visuals, visualization scripts are wri
 
 ## How to Use
 1. **Compile the C++ Code**:
-   - Use a compiler like `g++` to compile the main simulation program.
+   - There is a CMake file that uses g++
 
 2. **Run the Python Visualization**:
    - Use the output from the C++ simulation as input for the Python script.
