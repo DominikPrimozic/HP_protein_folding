@@ -121,7 +121,7 @@ input_parameters::input_parameters(std::string filepath){
             while (std::getline(file, seq_line) && !seq_line.empty()) {
                 if (seq_line[0] == '>') continue;
                 else {
-                    sequence += seq_line;
+                    sequence += trim(seq_line);
             }
         }
     }
